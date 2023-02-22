@@ -182,7 +182,7 @@ function command_6(){
 	cd Grasscutter
 	chmod +x gradlew
 	./gradlew jar # Compile
-	git clone https://ghproxy.com/https://ghproxy.com/https://gitlab.com/YuukiPS/GC-Resources.git
+	git clone https://gitlab.com/YuukiPS/GC-Resources.git
 	mv Resources resources
 	chmod -R 777 /root/Grasscutter
 	echo "服务端更新完成！自动启动服务端！"
